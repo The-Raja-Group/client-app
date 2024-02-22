@@ -1,0 +1,55 @@
+.container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+
+   }
+   
+
+.top {
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+.video-screens {
+    margin: 2rem;
+    padding: 4rem;
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    border-style: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+
+
+}
+
+.video-screens > div {
+    display: flex;
+    margin: 1rem; /* Add margin to each box */
+    background-color: blanchedalmond;
+    width: 25rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+  }
+
+
+
+
+.channel-connect {
+    display: flex;
+    margin: 2rem;
+    background-color: gray;
+    font-size: 2rem;
+    width: 20rem;
+    height: 8rem;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
