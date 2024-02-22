@@ -23,21 +23,21 @@ export default function Body() {
                       <div className="label">
                         <span className="label-text text-base-100">What is your name?</span>
                       </div>
-                      <input type="text" placeholder="Type here" className="input input-ghost border border-base-100 w-full max-w-xs focus:bg-transparent focus:border-black"/>
+                      <input type="text" placeholder="Type here" className="input input-ghost border border-base-100 w-full max-w-xs focus:bg-transparent focus:border-black focus:text-black"/>
                     </label>
 
                     <label className="form-control w-full max-w-xs">
                       <div className="label">
                         <span className="label-text text-base-100">Your Call-ID</span>
                       </div>
-                      <input readOnly value={"12345"} type="text" placeholder="Type here" className="input input-ghost border border-base-100 w-full max-w-xs focus:bg-transparent focus:border-black"/>
+                      <input readOnly value={"12345"} type="text" placeholder="Type here" className="input input-ghost border border-base-100 w-full max-w-xs focus:bg-transparent focus:border-black focus:text-black"/>
                     </label>
 
                     <label className="form-control w-full max-w-xs">
                       <div className="label">
                         <span className="label-text text-base-100">ID To Call</span>
                       </div>
-                      <input type="text" placeholder="Type here" className="input input-ghost border border-base-100 w-full max-w-xs focus:bg-transparent focus:border-black"/>
+                      <input type="text" placeholder="Type here" className="input input-ghost border border-base-100 w-full max-w-xs focus:bg-transparent focus:border-black focus:text-black"/>
                     </label>
                     
                     <button className="btn bg-blue-500 text-white border-none max-w-xs self-end hover:bg-blue-700">Call</button>
